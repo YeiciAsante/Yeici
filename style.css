@@ -1,0 +1,123 @@
+body {
+  background-color:#D1D9D9;
+  font-family:'Poiret One';
+}
+
+.title {
+  color:#7B6079;
+  font-family:'Rock salt';
+  text-align:center;
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+.title img {
+  height: 180px;
+  width: auto;
+  border-radius: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color:#CE97B0;
+  font-family:'Rock salt';
+  text-align:center;
+  font-size: 25px;
+}
+
+#yeici {
+  color: #94B4A4;
+  display:inline;
+  font-weight: bold;
+}
+
+#description {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #0A81AB;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.opening {
+  background-color: #595260;
+  color:#D1D9D9;
+  margin:auto 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size:25px;
+  line-height: 50px;
+  border-radius: 15px;
+}
+
+.container {
+  width: auto;   /* This sets the width */
+  margin: auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card {
+  background:#EAD3CB;
+  color: #716F81;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.card img {
+  height: 150px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit:cover;
+}
+
+.footer {
+  position:relative;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p {
+  color:#CE97B0;
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size: 30px;
+}
+
+i {
+  color:gray;
+  display:flex;
+  size: 100%;
+}
+
+i:hover {
+  color:indianred
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
